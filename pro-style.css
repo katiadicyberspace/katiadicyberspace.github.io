@@ -151,8 +151,9 @@ img.model-logo {
     margin: 1% auto;
 }
 .post-body p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
+    line-height: 35px;
 }
 .post-body img {
     width: 100%;
@@ -176,10 +177,12 @@ a.btn.btn-class:hover {
 .post-body h2 {
     font-weight: bold;
     padding: 15px 0 5px 0;
+    font-size: 1.70rem;
 }
 .post-body h3 {
     font-weight: bold;
     padding: 20px 0 10px 0;
+    font-size: 1.30rem;
 }
 
 .content {
@@ -241,8 +244,8 @@ a.btn.btn-class:hover {
     text-align: justify;
 }
 .post-body ul li, .post-body ol li {
-    font-size: 20px;
-    margin: 5px 0;
+    font-size: 18px;
+    margin: 10px 0;
 }
 ul li {
     font-size: 20px;
