@@ -1,0 +1,36 @@
+    .carousel-item {
+      text-align: center;
+      padding: 20px;
+    }
+    .carousel-item img {
+      width: 300px;
+      height: 100px;
+      object-fit: contain;
+    }
+    .carousel-caption {
+      position: relative;
+      color: #333;
+      font-size: 16px;
+      font-weight: 500;
+      padding-top: 15px;
+      left: 0%;
+    }
+    /* Adjust the indicators positioning and appearance */
+    .carousel-indicators {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+    }
+    .carousel-indicators [data-bs-target] {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: black; /* Change this if you prefer a different color */
+      border: none;
+      opacity: 0.5;
+    }
+    .carousel-indicators .active {
+      opacity: 1;
+    }

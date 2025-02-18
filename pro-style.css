@@ -147,7 +147,7 @@ img.model-logo {
     display: flex;
     border-radius: 50%;
     height: 175px;
-    width: 175px;
+    width: auto;
     margin: 1% auto;
 }
 .post-body p {
