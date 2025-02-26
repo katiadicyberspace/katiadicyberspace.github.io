@@ -64,3 +64,22 @@
   border-radius: 50%;
   margin-bottom: 10px;
 }
+/* Make sure indicators are visible */
+.carousel-indicators button {
+  background-color: #333; /* Dark color for visibility */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+}
+
+/* Ensure navigation arrows are visible */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Light background */
+  border-radius: 50%;
+  padding: 10px;
+  width: auto;
+}
+.carousel-control-next, .carousel-control-prev {
+  width: auto;
+}

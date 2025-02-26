@@ -542,7 +542,9 @@ figure.Portfolioimg {
     a.navbar-brand.mobile-view {
         display: block;
     }
-
+    section.showcase {
+        background: #8ad8f4;
+    }
     .showcase h1 {
         font-size: 30px;
     }
