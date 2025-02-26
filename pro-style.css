@@ -184,7 +184,9 @@ a.btn.btn-class:hover {
     padding: 20px 0 10px 0;
     font-size: 1.30rem;
 }
-
+.contact-info a {
+    text-decoration: none;
+}
 .content {
     padding: 20px;
     background: #fff;
